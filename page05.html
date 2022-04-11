@@ -47,9 +47,11 @@
                 // Segunda expressão
                 formSenha == loginSenha
             ) {
-                console.log('usuario ok.')
+                // Escreve na caixa de mensagem 
+                mensagem.innerHTML = "Óla " + formUsuario + "Seja bem-vindo!";
+
             } else {
-                console.error('oooops!');
+              mensagem.innerHTML = "Ooops! Algo errado não deu certo";
             }
 
 
